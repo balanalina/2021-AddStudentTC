@@ -4,7 +4,6 @@ import domain.Nota;
 import domain.Student;
 import domain.Tema;
 import junit.framework.TestCase;
-import org.graalvm.compiler.debug.Assertions;
 import org.junit.Test;
 import repository.NotaXMLRepository;
 import repository.StudentXMLRepository;
@@ -69,5 +68,14 @@ public class ServiceTest extends TestCase {
         //out
         assertEquals(1, service.saveStudent("8", "Maria", 938));
         assertEquals(1, service.saveStudent("8", "Maria", 939));
+    }
+
+    public void testTemaDeadLine(){
+        assertEquals(1, service.saveTema("5", "Salut", 0, 2));
+    }
+
+    public void testTemaStartLine(){
+        assertEquals(1, service.saveTema("6", "File", 8, 3));
+        service.deleteTema("6");
     }
 }
