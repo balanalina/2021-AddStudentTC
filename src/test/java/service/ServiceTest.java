@@ -1,6 +1,7 @@
 package service;
 
 import domain.Nota;
+import domain.Pair;
 import domain.Student;
 import domain.Tema;
 import junit.framework.TestCase;
@@ -26,7 +27,7 @@ public class ServiceTest extends TestCase {
     public void testIdUnique() {
         assertEquals(1, service.saveStudent("8", "Maria", 150));
         service.deleteStudent("8"); // we must delete every successful student added
-
+        Nota(new Pair<>(), )
         // works only with new id
         assertEquals(0, service.saveStudent("1", "Maria", 150));
     }
