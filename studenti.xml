@@ -24,8 +24,4 @@
         <Nume>Maria</Nume>
         <Grupa>150</Grupa>
     </student>
-    <student ID="8">
-        <Nume>Maria</Nume>
-        <Grupa>111</Grupa>
-    </student>
 </Entitati>
