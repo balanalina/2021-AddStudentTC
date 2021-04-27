@@ -30,6 +30,9 @@ public abstract class AbstractCRUDRepository<ID, E extends HasID<ID>> implements
 
     @Override
     public E save(E entity) throws ValidationException {
+        if(entity==null){
+            throw new 	IllegalArgumentException("Entity can not be null!\n");
+        }
         try {
             validator.validate(entity);
             return entities.putIfAbsent(entity.getID(), entity);

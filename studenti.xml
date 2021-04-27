@@ -24,4 +24,12 @@
         <Nume>Maria</Nume>
         <Grupa>150</Grupa>
     </student>
+    <student ID="valid id">
+        <Nume>valid name</Nume>
+        <Grupa>931</Grupa>
+    </student>
+    <student ID="student valid id for test">
+        <Nume>test student name</Nume>
+        <Grupa>921</Grupa>
+    </student>
 </Entitati>

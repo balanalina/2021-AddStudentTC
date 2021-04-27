@@ -8,7 +8,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="2021-AddStudentTC" />
         <module name="AddStudentTC" />
-        <module name="2021-AddStudentTC" />
       </profile>
     </annotationProcessing>
   </component>

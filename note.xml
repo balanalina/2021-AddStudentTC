@@ -10,6 +10,11 @@
         <SaptamanaPredare>9</SaptamanaPredare>
         <Feedback>done</Feedback>
     </nota>
+    <nota IDStudent="student valid id for test" IDTema="assignment valid id for test">
+        <Nota>9.0</Nota>
+        <SaptamanaPredare>5</SaptamanaPredare>
+        <Feedback>dunnow</Feedback>
+    </nota>
     <nota IDStudent="5" IDTema="2">
         <Nota>4.0</Nota>
         <SaptamanaPredare>10</SaptamanaPredare>
