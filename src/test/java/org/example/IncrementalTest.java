@@ -99,10 +99,9 @@ public class IncrementalTest {
             notaXMLRepository.delete(new Pair<>(validStudentId, validAssignmentId));
 
 
-        assertEquals(1, service.saveNota(validStudentId, validAssignmentId, 11, getValidAssignmentStartLine, "dunnow"));
 
         // same grade
-        assertEquals(0, service.saveNota(validStudentId, validAssignmentId, 10, getValidAssignmentStartLine, "dunnow"));
+        assertEquals(1, service.saveNota(validStudentId, validAssignmentId, 10, getValidAssignmentStartLine, "dunnow"));
 
     }
 }
